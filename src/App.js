@@ -6,6 +6,8 @@ import About from  './Component/About/About'
 import Hero from './Component/Hero/Hero'
 import Services from './Component/Services/Services'
 import MyWork  from './Component/MyWork/MyWork'
+import Contact from './Component/Contact/Contact'
+import Footer from './Component/Footer/Footer'
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
   <About/>
   <Services/>
   <MyWork/>
+  <Contact/>
+  <Footer/>
 </div>    
     
   );

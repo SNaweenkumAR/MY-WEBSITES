@@ -1,0 +1,175 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.contact-title{
+    position: relative;
+   transition:0.3s ease-in-out;
+ }
+ .contact-title:hover{
+    transform: scale(0.89);
+  
+   
+   }
+ .contact-title h1{
+    
+        padding: 0px 30px;
+        font-size: 4rem;
+        font-weight: bold;
+        background: linear-gradient(270deg, #e5dfdf -5.89%,violet  60%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+ }
+ .contact-title img{
+    position:absolute;
+    bottom:0;
+    right:0;
+    z-index:-1;
+ }
+
+ .contact-section{
+    display: flex;
+    gap: 150px;
+
+ }
+ .contact-left{
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+ }
+ .contact-left h1{
+    font-size: 80px;
+    font-weight: bold;
+    background: linear-gradient(270deg,#be521c 45%,violet  90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+ .contact-left p{
+    max-width: 550px;
+    color: #d8d8d8;
+    font-size: 20px;
+    line-height: 35px;
+ }
+
+ .contcat-details{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #d8d8d8;
+    font-size: 1rem;
+ }
+ .contact-detail{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ }
+ .contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+
+ }
+ .contact-right label{
+       color: #d8d8d8;
+       font-size: 1rem;
+       font-weight: bold;
+
+ }
+
+ .contact-right input{
+    border: none;
+    width: 700px;
+    height: 78px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #a0a0a0;
+    font-family: outfit; 
+    font-size: 28px;
+
+}
+ .contact-right textarea{
+     border: none;
+     border-radius: 4px;
+    background: #32323c;
+    color: #a0a0a0;
+    font-family: outfit; 
+    font-size: 28px;
+    width: 670px;
+    padding: 25px;
+
+ }
+
+ .contact-submit{
+    border: none;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#df8900 -5.09%,#b415ff 100%);
+    font-size: 22px;
+    padding: 20px 60px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s ;
+
+ }
+ .contact-submit:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+ }
+ @media(max-width:768px){
+   .contact{
+      gap: 50px;
+      margin: 50px 70px;
+      align-items: start;
+   }
+   .contact-title h1{
+      padding: 0;
+      font-size: 50px;
+      font-weight: 600;
+   }
+   .contact-title img{
+      width: 130px;
+      margin-right: -20px;
+   }
+   .contact-section{
+      flex-direction: column;
+
+   }
+   .contact-left h1{
+      font-size: 54px;
+
+   }
+   .contact-left p{
+      font-size: 18px;
+   }
+   .contact-detail{
+      gap: 20px;
+   }
+   .contact-detail img{
+      width:25px;
+   }
+   .contact-right label{
+      font-size: 20px;
+   }
+   .contact-right input{
+      width: 100%;
+      font-size: 20px;
+   }
+   .contact-right textarea{
+      width: 95%;
+      font-size: 20px;
+   }
+   .contact-submit{
+      padding: 18px 40px;
+      font-size: 20px;
+   }
+ }
